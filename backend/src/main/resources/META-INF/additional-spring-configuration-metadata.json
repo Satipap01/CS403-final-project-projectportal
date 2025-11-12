@@ -1,0 +1,25 @@
+{"properties": [{
+  "name": "spring.web.encoding.enabled",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.web.encoding.enabled'"
+}]}{"properties": [{
+  "name": "spring.web.encoding.charset",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.web.encoding.charset'"
+}]}{"properties": [{
+  "name": "spring.web.encoding.force",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.web.encoding.force'"
+}]}{"properties": [{
+  "name": "spring.web.encoding.force-request",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.web.encoding.force-request'"
+}]}{"properties": [{
+  "name": "spring.web.encoding.force-response",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.web.encoding.force-response'"
+}]}{"properties": [{
+  "name": "spring.web.encoding.force-response",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.web.encoding.force-response'"
+}]}
