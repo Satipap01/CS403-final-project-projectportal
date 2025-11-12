@@ -26,4 +26,23 @@ public class ProjectController {
     public List<Project> getAllProjects() {
         return projectService.getAllProjects();
     }
+
+    // ✅ ดึงข้อมูลโครงงานตาม ID
+    @GetMapping("/{id}")
+    public Project getProjectById(@PathVariable Long id) {
+        return projectService.getProjectById(id);
+    }
+
+
+    // ✅ แก้ไขข้อมูลโครงงาน
+    @PutMapping("/{id}")
+    public Project updateProject(@PathVariable Long id, @RequestBody Project project) {
+        return projectService.updateProject(id, project);
+    }
+
+    // ✅ ลบโครงงานตาม ID
+    @DeleteMapping("/{id}")
+    public void deleteProject(@PathVariable Long id) {
+        projectService.deleteProject(id);
+    }
 }
